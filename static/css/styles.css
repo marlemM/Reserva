@@ -1,0 +1,30 @@
+
+.sidebar {
+    width: 200px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    display: block; /* Por padrão, a barra lateral é exibida */
+}
+
+.sidebar.hidden {
+    display: none; /* Quando a classe "hidden" é aplicada, a barra lateral é ocultada */
+}
+
+.sidebar a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+
+}
+
+.bar{
+    background-color: bisque;
+    padding: 30px;
+    font-family: verdana;
+}
+
+.sair{
+    padding-left: 1000px;
+    
+}

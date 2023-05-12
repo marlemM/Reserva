@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meu Sistema ERP</title>
+    <link rel="stylesheet" href="{% static '/styles.css' %}">
+    <script>
+        function toggleSidebar() {
+            var sidebar = document.getElementById("sidebar");
+            sidebar.classList.toggle("hidden");
+        }
+    </script>
+</head>
+<body>
+    <nav class="bar">LOGO <div class="sair">SAIR</div> </nav>
+    <div>
+        <button onclick="toggleSidebar()">Toggle Sidebar</button>
+        <!-- Conteúdo principal do sistema ERP -->
+    </div>
+    <div id="sidebar" class="sidebar">
+        <a href="#">Dashboard</a>
+        <a href="#">Pedidos</a>
+        <a href="#">Clientes</a>
+        <a href="#">Produtos</a>
+        <!-- Adicione mais links de acordo com suas necessidades -->
+    </div>
+    
+</body>
+</html>
+
+
+
+
